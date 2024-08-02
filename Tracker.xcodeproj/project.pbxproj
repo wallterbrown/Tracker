@@ -57,8 +57,8 @@
 				DFC767022C5D590F005E588A /* AppDelegate.swift */,
 				DFC767042C5D590F005E588A /* SceneDelegate.swift */,
 				DFC767062C5D590F005E588A /* ViewController.swift */,
-				DFC7670B2C5D5910005E588A /* Assets.xcassets */,
 				DFC7670D2C5D5910005E588A /* LaunchScreen.storyboard */,
+				DFC7670B2C5D5910005E588A /* Assets.xcassets */,
 				DFC767102C5D5910005E588A /* Info.plist */,
 			);
 			path = Tracker;
