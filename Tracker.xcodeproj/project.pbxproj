@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		DFC767032C5D590F005E588A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC767022C5D590F005E588A /* AppDelegate.swift */; };
 		DFC767052C5D590F005E588A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC767042C5D590F005E588A /* SceneDelegate.swift */; };
-		DFC767072C5D590F005E588A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC767062C5D590F005E588A /* ViewController.swift */; };
+		DFC767072C5D590F005E588A /* StatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC767062C5D590F005E588A /* StatsController.swift */; };
 		DFC7670C2C5D5910005E588A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC7670B2C5D5910005E588A /* Assets.xcassets */; };
 		DFC7670F2C5D5910005E588A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DFC7670E2C5D5910005E588A /* Base */; };
+		DFC767172C5D68AE005E588A /* TrackerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC767162C5D68AE005E588A /* TrackerController.swift */; };
+		DFC7671C2C5D69F4005E588A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC7671B2C5D69F4005E588A /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFC766FF2C5D590F005E588A /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC767022C5D590F005E588A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFC767042C5D590F005E588A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFC767062C5D590F005E588A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFC767062C5D590F005E588A /* StatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsController.swift; sourceTree = "<group>"; };
 		DFC7670B2C5D5910005E588A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFC7670E2C5D5910005E588A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFC767102C5D5910005E588A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC767162C5D68AE005E588A /* TrackerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerController.swift; sourceTree = "<group>"; };
+		DFC7671B2C5D69F4005E588A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		DFC767012C5D590F005E588A /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				DFC767022C5D590F005E588A /* AppDelegate.swift */,
-				DFC767042C5D590F005E588A /* SceneDelegate.swift */,
-				DFC767062C5D590F005E588A /* ViewController.swift */,
-				DFC7670D2C5D5910005E588A /* LaunchScreen.storyboard */,
-				DFC7670B2C5D5910005E588A /* Assets.xcassets */,
+				DFC767062C5D590F005E588A /* StatsController.swift */,
+				DFC767162C5D68AE005E588A /* TrackerController.swift */,
+				DFC7671B2C5D69F4005E588A /* TabBarViewController.swift */,
+				DFC767182C5D68BB005E588A /* Supporting */,
 				DFC767102C5D5910005E588A /* Info.plist */,
 			);
 			path = Tracker;
+			sourceTree = "<group>";
+		};
+		DFC767182C5D68BB005E588A /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				DFC767022C5D590F005E588A /* AppDelegate.swift */,
+				DFC767042C5D590F005E588A /* SceneDelegate.swift */,
+				DFC7670D2C5D5910005E588A /* LaunchScreen.storyboard */,
+				DFC7670B2C5D5910005E588A /* Assets.xcassets */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFC767072C5D590F005E588A /* ViewController.swift in Sources */,
+				DFC767072C5D590F005E588A /* StatsController.swift in Sources */,
 				DFC767032C5D590F005E588A /* AppDelegate.swift in Sources */,
 				DFC767052C5D590F005E588A /* SceneDelegate.swift in Sources */,
+				DFC7671C2C5D69F4005E588A /* TabBarViewController.swift in Sources */,
+				DFC767172C5D68AE005E588A /* TrackerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
